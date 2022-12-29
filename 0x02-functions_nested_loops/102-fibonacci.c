@@ -22,4 +22,4 @@ int main(void)
 		printf("%li", a);
 	printf("\n");
 	return (0);
-
+}
