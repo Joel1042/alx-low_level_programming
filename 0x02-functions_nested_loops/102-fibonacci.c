@@ -14,12 +14,14 @@ int main(void)
 
 	for (X = 1; X <= (Y / 2); X++)
 	{
-		printf("%li %li ", a, b);
+		printf("%li, %li ", a, b);
 		a += b;
 		b += a;
 	}
 	if (Y % 2 == 1)
 		printf("%li", a);
+
 	printf("\n");
+
 	return (0);
 }
