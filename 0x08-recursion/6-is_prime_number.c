@@ -13,7 +13,7 @@ int is_prime_number(int n)
 	if (x * y == n || x > y)
 		return (1);
 
-	if (x * y ==n || x == y)
+	if (x * y == n || x == y)
 
 		return (0);
 	return (is_prime_number(n));
